@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #131313;
+    background:  #008AD8;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -120,10 +120,10 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: #131313;
+        background: #05C3DD;
     }
      .navbar__menu.active{
-        background: #131313;
+        background: #05C3DD;
          top: 100%;
          opacity: 1;
          transition: ALL 0.5s ease;
@@ -194,7 +194,7 @@
 
 /*Hero section CSS*/
 .main{
-    background-color: #141414;
+    background-color:  #F2E9EA;
 }
 
 .main__container {
@@ -204,7 +204,7 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #141414;
+    background-color: #000f11;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -268,7 +268,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #4837ff;
+    background: #05031d;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -319,6 +319,23 @@
 }
 
 @media screen and(max-width: 480px){
+    .main__content h1{
+        font-size: 2 rem;
+        margin-top: 3rem;
+    }
+    .main__content h2 {
+        font-size: 2rem;
+    }
+    .main__content p {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+    .main__btn{
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+
+
+    }
 
     
 }
