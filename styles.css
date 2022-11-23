@@ -7,7 +7,7 @@
 
 .navbar {
     background:  #008AD8;
-    height: -80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -25,7 +25,7 @@
     width: 100;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 0px;
 }
 
  #navbar__logo {
@@ -55,7 +55,7 @@
         text_align: center;
     }
     .navbar__item {
-        height: 80px;
+        height: 100 px;
     }
     .navbar__links{
         color: #fff;
@@ -119,7 +119,7 @@
         opacity: 0;
         transition: all 0.5s ease;
         height: 50vh;
-        z-index: -1;
+        z-index: 0;
         background: #05C3DD;
     }
      .navbar__menu.active{
@@ -127,7 +127,7 @@
          top: 100%;
          opacity: 1;
          transition: ALL 0.5s ease;
-         z-index: 99;
+         z-index: 100;
          height: 50vh;
          font-size: 1.6rem;
      }   
@@ -262,7 +262,7 @@
 
 } */
 
-/.main__btn::after {
+.main__btn::after {
     position: absolute;
     content: '';
     top: 0;
