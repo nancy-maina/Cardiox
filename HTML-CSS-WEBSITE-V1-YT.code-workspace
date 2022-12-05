@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "HTML-CSS-WEBSITE-V1-YT",
+			"path": "."
+		},
+		{
+			"name": ".venv",
+			"path": "../../../Desktop/Flask_Intro/.venv"
+		},
+		{
+			"name": ".vscode",
+			"path": "../../../Desktop/Flask_Intro/.vscode"
+		},
+		{
+			"name": "__pycache__",
+			"path": "../../../Desktop/Codes/Flask_Intro/__pycache__"
+		},
+		{
+			"name": "templates",
+			"path": "../../../Desktop/Codes/Flask_Intro/templates"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502,
+		"liveServer.settings.multiRootWorkspaceName": "HTML-CSS-WEBSITE-V1-YT",
+		"git.ignoreLimitWarning": true
+	}
+}
